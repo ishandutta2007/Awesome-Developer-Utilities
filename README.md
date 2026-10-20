@@ -30,73 +30,29 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global developer utilities and software development tools market is estimated at approximately **$7.5B to $9.0B**, growing at a 14%–16% CAGR toward $30B+ by the mid-2030s. The sector is **highly fragmented** rather than winner-take-all, characterized by modular engineering stacks where developers mix best-of-breed specialized point solutions across terminals, container tooling, API clients, and application launchers despite strong individual tool-level lock-in.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **Raycast**
-
-  **The most polished Mac launcher** with extensions, clipboard history, snippets, and AI. **Free tier available**; **Pro at $10/month** adds AI credits and cloud sync. **The modern Alfred competitor**—extensions ecosystem is growing, but it's **proprietary and cloud-tied** for the best features.
-
-
-
-- **Alfred**
-
-  **The original Mac launcher** with workflows, clipboard history, and text expansion. **Powerpack at £34 one-time** unlocks the power features. **No subscription, no cloud dependency**—the pragmatic choice for developers who want local-only launchers.
-
-
-
-- **Warp**
-
-  **The AI-integrated terminal** built in Rust. **Free plan includes core terminal features plus bring-your-own AI inference**. **The most significant terminal innovation in years**—but it's **AGPL open-source** with a commercial cloud component. **Not fully self-hostable** without Warp's cloud for AI features.
-
-
-
-- **Homebrew**
-
-  **The missing package manager for macOS and Linux**. **The de facto standard**—`brew install` is muscle memory for most developers. **Fully open-source**.
-
-
-
-- **Postman**
-
-  **The most widely adopted API platform** with collections, workspaces, and mock servers. **Free tier now caps at one user**—**Solo at $9/month or Team at $19/user/month is the realistic starting point** for teams.
-
-
-
-- **Docker Desktop**
-
-  **The GUI container manager** for Mac, Windows, and Linux. **Commercial licensing required** for larger organizations ($9-$24/user/month). **The default choice** for developers who want a polished GUI without terminal commands.
-
-
-
-- **Termius**
-
-  **Cross-platform SSH client** with cloud sync, snippets, and SFTP. **The most polished commercial SSH client**—but **cloud-tied for sync**.
-
-
-
-- **Setapp**
-
-  **Mac app subscription** with 240+ curated apps. **The "many apps, one fee" choice**—but **fully proprietary** and Mac-only.
-
-
-
-- **Chocolatey**
-
-  **The package manager for Windows** with 9,000+ packages. **The Windows Homebrew equivalent**—but **community-maintained** and slower to update than Winget.
-
-
+| Product | Company Valuation / Revenue | Starting Pricing Tier | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **Postman** | **$5.6B valuation** (~$313M ARR) | $9/user/month (Solo, billed annually) or $19/user/month (Team) | **Free forever plan limited to 1 user** (no shared team workspaces/collaboration), 50 Postman AI credits/month, and 10,000 API calls/month | Leading API collaboration platform with collections, workspaces, and mock servers. |
+| **Docker Desktop** | **$2.1B valuation** (~$207M ARR) | $9/user/month (Pro, billed annually) or $15/user/month (Team) | **Free forever Personal plan restricted to small businesses (<250 employees & <$10M annual revenue)**, education, open-source, or personal use; includes 1 private repo and 1 user seat | Standard GUI container management application for Mac, Windows, and Linux. |
+| **Insomnia (Kong)** | **$2.0B valuation** (~$100M+ ARR) | $12/user/month (Pro, billed annually) | **Free forever Essentials plan capped at 1,000 mock requests/month** and 3 users on Git Sync projects; includes offline Scratch Pad mode | Open-source foundation API client and debugging suite backed by Kong. |
+| **Warp** | **~$293.5M valuation** (~$75M raised) | $18/user/month (Build plan, billed annually) | **Free forever plan with unlimited core terminal access**, but has 0 bundled recurring monthly AI agent credits (requires pay-as-you-go or bring-your-own inference) and restricted cloud history/indexing | Modern Rust-based, AI-integrated terminal emulator with collaborative command workflows. |
+| **Raycast** | **~$120M–$250M valuation** (~$5M–$10M ARR) | $10/user/month (Pro) | **Free forever plan with 0 native Raycast AI access**, maximum of 5 Raycast Notes, and no cloud sync (local storage only) | Highly extensible Mac/Windows launcher with deep script integrations and quicklinks. |
+| **Setapp (MacPaw)** | **~$90M annual revenue** (~$13.5M Setapp ARR) | $14.99/month (1 Mac plan) | **No free-forever tier; 7-day free trial** with full access to 270+ apps and 90 AI credits (payment method required) | Mac and iOS utility subscription marketplace granting all-in-one access to curated applications. |
+| **Termius** | **~$4M annual revenue** (Bootstrapped / YC seed) | $10/user/month (Pro, billed annually) | **Free forever Starter plan with local vault only (0 cloud sync across devices)** and no shared team vaults; allows 1 user device manual setup | Cross-platform SSH, SFTP, and Telnet client with terminal emulator capabilities. |
+| **Chocolatey** | **~$1.7M annual revenue** (Privately held / bootstrapped) | $17.60/machine/year (Chocolatey for Business) or $96/year (Pro Personal) | **Free forever Open Source edition allowed for commercial use on unlimited machines**, but excludes centralized management (CCM), automatic package builders, and private package internalizers | Windows package manager and automation utility for software deployment. |
+| **Alfred** | **Privately held micro-ISV** (~$500K–$2M revenue estimate) | £34 one-time (~$43 USD single license) | **Free forever basic edition restricted to Spotlight-style search only**; completely excludes Alfred Workflows, clipboard history, and text expansion snippets | Original native macOS application launcher and workflow productivity engine. |
 
 ## Open-Source GitHub Projects
 
