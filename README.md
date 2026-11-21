@@ -66,6 +66,7 @@ The table below benchmarks prominent commercial developer utilities, ordered by 
 | **Termius** | **~$4M annual revenue** (Bootstrapped / YC seed) | $10/user/month (Pro, billed annually) | **Free forever Starter plan with local vault only (0 cloud sync across devices)** and no shared team vaults; allows 1 user device manual setup | Cross-platform SSH, SFTP, and Telnet client with terminal emulator capabilities. |
 | **Chocolatey** | **~$1.7M annual revenue** (Privately held / bootstrapped) | $17.60/machine/year (Chocolatey for Business) or $96/year (Pro Personal) | **Free forever Open Source edition allowed for commercial use on unlimited machines**, but excludes centralized management (CCM), automatic package builders, and private package internalizers | Windows package manager and automation utility for software deployment. |
 | **Alfred** | **Privately held micro-ISV** (~$500K–$2M revenue estimate) | £34 one-time (~$43 USD single license) | **Free forever basic edition restricted to Spotlight-style search only**; completely excludes Alfred Workflows, clipboard history, and text expansion snippets | Original native macOS application launcher and workflow productivity engine. |
+| **[BestJSON](https://bestjson.com/)** | Not publicly disclosed | Free; no paid tier | No account required | Hosted proprietary browser utility for JSON syntax validation, repair previews and structural comparison; input is processed locally. |
 
 ---
 
